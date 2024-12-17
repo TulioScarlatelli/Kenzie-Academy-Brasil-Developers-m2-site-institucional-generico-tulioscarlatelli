@@ -1,0 +1,44 @@
+@import url("./reset.css");
+@import url("./index.css");
+
+:root {
+    --brand-color-1: #4C6EF5;
+    --brand-color-2: #364FC7;
+
+    --gray-1: #191c1f;
+    --gray-2: #212529;
+    --gray-3: #343A40;
+    --gray-4: #ADB5BD;
+    --gray-5: #CED4DA;
+    --gray-6: #EDF2FF;
+    --gray-7: #F8F9FA;
+
+    --font-weight-title-1: 600;
+    --font-size-title-1: 52px;
+    --line-height-title-1: 140%;
+    
+    --font-weight-title-2: 600;
+    --font-size-title-2: 40px;
+    --line-height-title-2: 160%;
+    
+    --font-weight-title-3: 600;
+    --font-size-title-3: 32px;
+    --line-height-title-3: 160%;
+    
+    --font-weight-text-1: 400;
+    --font-size-text-1: 20px;
+    --line-height-text-1: 150%;
+    
+    --font-weight-text-2: 400;
+    --font-size-text-2: 18px;
+    --line-height-text-2: 150%;
+    
+    --font-weight-text-3: 400;
+    --font-size-text-3: 16px;
+    --line-height-text-3: 150%;
+    
+    --font-weight-text-4: 600;
+    --font-size-text-4: 16px;
+    --line-height-text-4: 150%;
+}
+
