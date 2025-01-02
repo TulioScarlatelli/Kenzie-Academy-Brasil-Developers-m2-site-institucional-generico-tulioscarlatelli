@@ -11,7 +11,7 @@
     <header class="header">
       <div class="header__div">
         <img class="header__img" src="./src/assets/logo.svg" alt="" />
-        <button class="header__button" id="showModal">Entrar para próxima turma</button>
+        <button class="header__button">Entrar para próxima turma</button>
       </div>
     </header>
     <main class="main">
@@ -53,7 +53,7 @@
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s
               </p>
-              <button class="faq__left__button" id="showModal">Entrar para próxima turma</button>
+              <button class="faq__left__button">Entrar para próxima turma</button>
             </div>
           </div>
           <!-- RIGHT SIDE -->
@@ -194,14 +194,16 @@
     </footer>
 
     <!-- ====== Modal ====== -->
-    <dialog class="modal__register">
-      <div class="modal__register__header">
-        <h1 class="modal__register__title">Cadastro</h1>
-        <button class="modal__register__button--close">X</button>
+    <dialog class="modal__container">
+      <div class="modal__register">
+        <div class="modal__register__header">
+          <h1 class="modal__register__title">Cadastro</h1>
+          <button class="modal__register__button--close">X</button>
+        </div>
+        <p class="modal__register__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <input class="modal__register__input" type="email" placeholder="Digitar email">
+        <button class="modal__register__button">Entrar na lista para próxima turma</button>
       </div>
-      <p class="modal__register__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s</p>
-      <input class="modal__register__input" type="email" placeholder="Digitar email">
-      <button class="modal__register__button">Entrar na lista para próxima turma</button>
     </dialog>
 
     <script src="./src/scripts/index.js"></script>
